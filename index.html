@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Augusto Brito" />
+    <meta name="description" content="trabajo practico sobre dom y bom" />
+    <meta
+      name="keywords"
+      content="dom, poo, bom, funciones, arrays, bucles, condicionales, javascript, html, css, bootstrap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>TP5-ejercicio3</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1 class="text-center my-4 text-info">Ingrese una tarea para agregar a la lista</h1>
+      <section id="sectionInput" class="container">
+        <form class="my-5 my-md-3">
+            <input
+              type="text"
+              placeholder="Ej: Ordenar la casa"
+              minlength="4"
+              maxlength="100"
+              required
+            />
+            <button class="btn btn-primary" type="submit">Ingresar</button>
+
+        </form>
+        <ul id="listaItems" class="list-group py-4">
+
+        </ul>
+      </section>
+    </main>
+    <footer class="text-center bg-secondary">
+      &copy; Derechos Reservaods -RollingCode- Brito Augusto
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
